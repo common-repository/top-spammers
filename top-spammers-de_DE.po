@@ -1,0 +1,256 @@
+#!/usr/bin/env php
+# Translation of the WordPress plugin Block Top Spammers 0.5 by Martin Lormes.
+# Copyright (C) 2010 Martin Lormes
+# This file is distributed under the same license as the Block Top Spammers package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Block Top Spammers 0.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/top-spammers\n"
+"POT-Creation-Date: 2010-03-23 19:51+0000\n"
+"PO-Revision-Date: 2010-03-23 21:32+0100\n"
+"Last-Translator: Martin Lormes <martinhh@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. #-#-#-#-#  plugin.pot (Block Top Spammers 0.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: top-spammers-template.php:34
+#: top-spammers-wp.php:68
+msgid "Block Top Spammers"
+msgstr "Top Spammer blocken"
+
+#: top-spammers-template.php:36
+msgid "Lucky you: no spam."
+msgstr "Was ein Glück: kein Spam."
+
+#: top-spammers-template.php:38
+msgid "These are your top spammers' IP addresses."
+msgstr "Das sind die IP-Adressen der Top Spammer."
+
+#: top-spammers-template.php:42
+#, php-format
+msgid "The top %d"
+msgstr "Die Top %d"
+
+#: top-spammers-template.php:44
+msgid "Lucky you: no new spam."
+msgstr "Was ein Glück: kein neuer Spam."
+
+#: top-spammers-template.php:46
+#, php-format
+msgid "You have spam from a total of %d different IP addresses."
+msgstr "Sie haben Spam von insgesamt %d verschiedenen IP-Adressen."
+
+#: top-spammers-template.php:52
+#: top-spammers-template.php:109
+msgid "Delete spam comments from selected ip addresses, and add ip addresses to blacklist"
+msgstr "Spam-Kommentare von den ausgewählten IP-Adressen löschen und die IP-Adressen blocken"
+
+#: top-spammers-template.php:60
+#: top-spammers-template.php:67
+msgid "order by IP address"
+msgstr "nach IP-Adresse sortieren"
+
+#: top-spammers-template.php:60
+#: top-spammers-template.php:67
+msgid "IP address"
+msgstr "IP-Adresse"
+
+#: top-spammers-template.php:60
+#: top-spammers-template.php:67
+msgid "Host name"
+msgstr "Hostname"
+
+#: top-spammers-template.php:61
+#: top-spammers-template.php:68
+msgid "order by count (descending)"
+msgstr "nach Anzahl sortieren (absteigend)"
+
+#: top-spammers-template.php:61
+#: top-spammers-template.php:68
+msgid "count"
+msgstr "Anzahl"
+
+#: top-spammers-template.php:76
+#: top-spammers-template.php:113
+msgid "This is your IP. Don't lock yourself out!"
+msgstr "Das ist Ihre eigene IP-Adresse. Sperren Sie sich bitte nicht selbst aus!"
+
+#: top-spammers-template.php:78
+#: top-spammers-template.php:114
+msgid "There's ham from the same IP. You shouldn't block readers, just bots!"
+msgstr "Von dieser IP-Adresse wurden bereits Kommentare genehmigt. Sie sollten keine Leser sondern nur Bots blocken!"
+
+#: top-spammers-template.php:80
+#: top-spammers-template.php:115
+msgid "There are unapproved comments from the same IP. I recomment reviewing them first. You shouldn't block readers, just bots!"
+msgstr "Es gibt noch offene Kommentare von dieser IP-Adresse. Ich empfehle, diese vorher zu moderieren. Sie sollten keine Leser sondern nur Bots blocken!"
+
+#: top-spammers-template.php:89
+#, php-format
+msgid "View all the spam comments from %s"
+msgstr "Alle Spam-Kommentare von %s ansehen"
+
+#: top-spammers-template.php:89
+msgid "View spam"
+msgstr "Spam ansehen"
+
+#: top-spammers-template.php:91
+#, php-format
+msgid "View all the approved comments from %s"
+msgstr "Alle genehmigten Kommentare von %s ansehen"
+
+#: top-spammers-template.php:91
+msgid "View ham"
+msgstr "Genehmigte Kommentare"
+
+#: top-spammers-template.php:93
+#, php-format
+msgid "View unapproved comments from %s"
+msgstr "Alle offenen Kommentare von %s ansehen"
+
+#: top-spammers-template.php:93
+msgid "View pending"
+msgstr "Offene Kommentare"
+
+#: top-spammers-template.php:95
+#, php-format
+msgid "Lookup %s in the ARIN WHOIS Database"
+msgstr "%s in der ARIN WHOIS Datenbank suchen"
+
+#: top-spammers-template.php:95
+#, php-format
+msgid "http://ws.arin.net/cgi-bin/whois.pl?queryinput=%s"
+msgstr ""
+
+#: top-spammers-template.php:95
+msgid "ARIN"
+msgstr ""
+
+#: top-spammers-template.php:96
+#, php-format
+msgid "Lookup %s in the RIPE Database"
+msgstr "%s in der RIPE Datenbank suchen"
+
+#: top-spammers-template.php:96
+#, php-format
+msgid "http://www.db.ripe.net/whois?searchtext=%s"
+msgstr ""
+
+#: top-spammers-template.php:96
+msgid "RIPE"
+msgstr ""
+
+#: top-spammers-template.php:97
+#, php-format
+msgid "Lookup %s in the APNIC Whois Database"
+msgstr "%s in der APNIC Whois Datenbank suchen"
+
+#: top-spammers-template.php:97
+#, php-format
+msgid "http://wq.apnic.net/apnic-bin/whois.pl?searchtext=%s"
+msgstr ""
+
+#: top-spammers-template.php:97
+msgid "APNIC"
+msgstr ""
+
+#: top-spammers-template.php:98
+#, php-format
+msgid "Lookup %s in the LACNIC WHOIS"
+msgstr "%s in der LACNIC WHOIS Datenbank suchen"
+
+#: top-spammers-template.php:98
+#, php-format
+msgid "http://lacnic.net/cgi-bin/lacnic/whois?query=%s"
+msgstr ""
+
+#: top-spammers-template.php:98
+msgid "LACNIC"
+msgstr ""
+
+#: top-spammers-template.php:99
+#, php-format
+msgid "Lookup %s in the AfriNIC Whois Database"
+msgstr "%s in der AfriNIC Whois Datenbank suchen"
+
+#: top-spammers-template.php:99
+#, php-format
+msgid "http://whois.afrinic.net/cgi-bin/whois?searchtext=%s"
+msgstr ""
+
+#: top-spammers-template.php:99
+msgid "AfriNIC"
+msgstr ""
+
+#: top-spammers-template.php:118
+msgid ""
+"You are about to delete spam comments from the selected ip addresses.\\n"
+"\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+"Spam-Kommentare von den ausgewählten IP-Adressen werden gelöscht.\\n"
+"\\'OK\\' zum Löschen, sonst \\'Abbrechen\\'"
+
+#: top-spammers-template.php:125
+msgid "Your blacklist (rules for .htaccess)"
+msgstr "Die Blacklist (Regeln für .htaccess)"
+
+#: top-spammers-template.php:127
+msgid "You haven't blacklisted anyone, yet."
+msgstr "Noch niemand geblockt."
+
+#: top-spammers-template.php:130
+msgid "Your .htaccess file is up to date."
+msgstr "Ihre .htaccess-Datei ist aktuell"
+
+#: top-spammers-template.php:133
+msgid "Your .htaccess file has been updated."
+msgstr "Ihre .htaccess-Datei wurde aktualisiert"
+
+#: top-spammers-template.php:135
+msgid "Your .htaccess file is not writable. Please update it manually!"
+msgstr "Ihre .htaccess-Datei ist nicht beschreibbar. Bitte aktualisieren Sie die Datei manuell!"
+
+#: top-spammers-template.php:142
+msgid "<strong>Instructions:</strong> copy these lines to your .htaccess-file and those IP addresses will be blocked from accessing your site entirely, probably taking some load off your server."
+msgstr "<strong>Anleitung:</strong> kopieren Sie diese Zeilen in Ihre .htaccess-Datei und die geblockten IP-Adressen können auf Ihre Site nicht mehr zugreifen. Dadurch sollte die Last auf dem Server reduziert werden."
+
+#: top-spammers-template.php:150
+msgid "Reset blacklist (delete all ip addresses)"
+msgstr "Blacklist zurücksetzen (alle IP-Adressen löschen)"
+
+#: top-spammers-template.php:154
+msgid ""
+"You are about to reset your blacklist.\\n"
+"\\'Cancel\\' to stop, \\'OK\\' to reset."
+msgstr ""
+"Die Blacklist wird jetzt zurückgesetzt.\\n"
+"\\'OK\\' zum Zurücksetzen, sonst \\'Abbrechen\\'"
+
+#: top-spammers-wp.php:125
+#, php-format
+msgid "%d spam deleted"
+msgstr "%d Spam-Kommentare gelöscht"
+
+#. Plugin URI of the plugin/theme
+msgid "http://ten-fingers-and-a-brain.com/wordpress-plugins/top-spammers/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Block Top Spammers displays a <a href=\"edit-comments.php?page=top-spammers\">list of your top spammers' IP addresses</a>, based on all comments in your database that are marked as spam. It also generates a blacklist for your .htaccess file to block those spammers from your website entirely, thus taking load off the server. &mdash; You will need another plugin (like <a href=\"http://akismet.com/\">Akismet</a>) to identify the spam."
+msgstr "Top Spammer blocken zeigt eine <a href=\"edit-comments.php?page=top-spammers\">Liste der IP-Adressen der Top Spammer</a> an, basierend auf allen als Spam markierten Kommentare in Ihrer Datenbank. Top Spammer generiert eine Blacklist für die .htaccess-Datei um Zugriffe dieser Spammer auf die Website komplett zu unterbinden, wodurch die Last auf dem Server reduziert wird. &mdash; Sie benötigen noch ein weiteres Plugin (z.B. <a href=\"http://akismet.com/\">Akismet</a>) um den Spam herauszufiltern."
+
+#. Author of the plugin/theme
+msgid "Martin Lormes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ten-fingers-and-a-brain.com/"
+msgstr ""
+
+#~ msgid "Top Spammers"
+#~ msgstr "Top Spammer"
